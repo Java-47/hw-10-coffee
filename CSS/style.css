@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgba(3, 150, 100, 0.75);
+}
+.item{
+    height: 360px;
+    overflow-y: auto;
+}
+
+.text-effect {
+    animation: effect 3s infinite;
+  }
+  
+  @keyframes effect{
+    from {
+      text-shadow:
+        0px 0px 10px #fff,
+        0px 0px 20px #fff,
+        0px 0px 30px #fff,
+        0px 0px 40px #fff,
+        0px 0px 50px #fff,
+        0px 0px 60px #fff,
+        0px 0px 70px #fff,
+        0px 0px 80px #fff,
+        0px 0px 90px #fff,
+        0px 0px 100px #ff0000,
+        0px 0px 110px #ff0000,
+        0px 0px 130px #ff0000;
+        
+        
+    }
+  }
+
+
